@@ -2,6 +2,10 @@
 
 Tiny Python applications.
 
+### CodeChecker
+
+Students' Python notebook fetcher and plagiarism detection using [MOSS tool](http://theory.stanford.edu/~aiken/moss).
+
 ### Followers
 
 Script for scraping follower count from list of Instagram profiles defined in the input CSV. Script produces CSV as an output which can be sorted so users can get sesne of the most popular profiles in their network. Input CSV should be a list of user's followings/followers. Useful for finding potential influencers in user's network.
