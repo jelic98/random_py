@@ -2,9 +2,9 @@
 
 Tiny Python applications.
 
-### CodeChecker
+### Acinonyx
 
-Students' Python notebook fetcher and plagiarism detection using [MOSS tool](http://theory.stanford.edu/~aiken/moss).
+Tool for downloading, plagiarism checking and testing students' code submissions. Initially written for the [School of Computing](https://www.raf.edu.rs/en). Plagiarism detection is done by the [MOSS tool](http://theory.stanford.edu/~aiken/moss).
 
 ### Followers
 
