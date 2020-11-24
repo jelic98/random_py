@@ -3,7 +3,6 @@ wd=$(pwd)
 cd $(dirname ${BASH_SOURCE[0]})
 for i in `find . ! -path . -type d | sort`; do
 	rm -f "$i/src" "$i/src.o" "$i/gen" && ok=true
-    continue
 	fpc "$i/src.pas" &> /dev/null
 	make "$i/gen" &> /dev/null
     for j in {1..5}; do
