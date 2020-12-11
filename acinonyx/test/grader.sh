@@ -1,9 +1,7 @@
 #!/bin/bash
-wd=$(pwd)
-cd $(dirname ${BASH_SOURCE[0]})
+wd=$(pwd) && cd $1
 for i in `find . ! -path . -type d | sort`; do
-    rm -f "$i/gen" "$i/src" "$i/src.o"
-    ok=true
+    rm -f "$i/gen" "$i/src" "$i/src.o" && ok=true
     fpc "$i/src.pas" &> /dev/null
     make "$i/gen" &> /dev/null
     for j in {1..5}; do
