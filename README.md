@@ -14,4 +14,12 @@ Script for calculating pension fund rate of return by parsing TSV payment statem
 
 Script for fetching real-time [Air Quality Index](https://en.wikipedia.org/wiki/Air_quality_index) for specified coordinates.
 
+### Finance
+
+Difference-in-Differences method on countries' GDP.
+
+### Segex
+
+Performing mass regex during text segmentation phase of Q&A system.
+
 ![scale](http://airquality.deq.idaho.gov/Information_AQI_files/image002.jpg "AQI Scale")
